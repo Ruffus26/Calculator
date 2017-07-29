@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>Web Calculator</title>
+	<link rel="icon" href="img/calculator.ico" type="image/x-icon" />
+	<link rel="shortcut icon" href="img/calculator.ico" type="image/x-icon" />
+	<link href="https://fonts.googleapis.com/css?family=Bellefair" rel="stylesheet">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<main>
+	  <div class="main-overlay"></div>
+		<div class="container">
+			<div class="calculator">
+				<input type="text" id="display" class="enter" placeholder="0000000000000000" disabled>
+				<div class="buttons">
+				  <div class="wrapper">
+					<div class="calc-btn"><button class="red-text" id="on">ON</button></div>
+					<div class="calc-btn"><button class="red-text" id="off">OFF</button></div>
+					<div class="calc-btn"><button class="dark" id="clear">C</button></div>
+					<div class="calc-btn"><button class="operation blue">/</button></div>
+					<div class="calc-btn"><button class="number">7</button></div>
+					<div class="calc-btn"><button class="number">8</button></div>
+					<div class="calc-btn"><button class="number">9</button></div>
+					<div class="calc-btn"><button class="operation blue">*</button></div>
+					<div class="calc-btn"><button class="number">4</button></div>
+					<div class="calc-btn"><button class="number">5</button></div>
+					<div class="calc-btn"><button class="number">6</button></div>
+					<div class="calc-btn"><button class="operation blue">-</button></div>
+					<div class="calc-btn"><button class="number">1</button></div>
+					<div class="calc-btn"><button class="number">2</button></div>
+					<div class="calc-btn"><button class="number">3</button></div>
+					<div class="calc-btn"><button class="operation blue">+</button></div>
+					<div class="calc-btn"><button class="number">0</button></div>
+					<div class="calc-btn"><button id="dot">.</button></div>
+					<div class="calc-btn"><button class="number">00</button></div>
+					<div class="calc-btn"><button class="operation red" id="Equal">=</button></div>
+				  </div>
+				</div>
+			</div>
+			<div class="header-calc">
+				<p>Simple <br> Web <br> Calculator</p>
+				<button class="head_btn" id="hoWork">How this Work?</button>
+				<div id="refresh"></div>
+			</div>
+		</div>
+	</main>
+
+	<canvas class="background"></canvas>
+	<script src="js/particles.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
